@@ -1,0 +1,11 @@
+# Ignore virtual environment inside ml
+.venv/
+
+# Ignore model weights
+*.pt
+*.onnx
+*.tflite
+
+# Python cache
+__pycache__/
+*.pyc

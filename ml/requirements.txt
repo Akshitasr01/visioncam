@@ -1,0 +1,13 @@
+# API server
+fastapi>=0.109
+uvicorn[standard]>=0.27
+python-multipart>=0.0.6
+
+# ML / computer vision
+opencv-python>=4.8
+mediapipe>=0.10.32
+numpy>=1.26
+pillow>=10.0
+
+# Optional: WebSocket support for real-time streaming (we'll use later)
+# python-socketio==5.10.0
